@@ -25,8 +25,13 @@ const PokemonList = () => {
               }.png`}
               type="Unknown" // You can fetch and display the actual type
               abilities={['Ability 1', 'Ability 2']} // You can fetch and display the actual abilities
-            />
+              <div className="btn-group">
+                <button>load more</button>
+                <button>read more</button>
+
+         
           </div>
+          />
         ))}
       </div>
     </div>
